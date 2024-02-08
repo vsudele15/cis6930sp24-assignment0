@@ -12,7 +12,7 @@ __How to Install__
 
 __Running the project__
 Runthe project using the following command:
-pipenv run python assignment0/main.py --incidents <URL>
+pipenv run python assignment0/main.py --incidents "https://www.normanok.gov/sites/default/files/documents/2024-01/2024-01-01_daily_incident_summary.pdf"
 
 __Demo__
 
