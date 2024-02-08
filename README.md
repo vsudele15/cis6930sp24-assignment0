@@ -1,11 +1,21 @@
-Name: Vaidehi Sudele
-
+__Name: Vaidehi Sudele__
 
 ASSIGNMENT DESCRIPTION:
 THIS IS ASSIGNMENT 0 IN THE CIS6930 DATA ENGINEERING COURSE. THE ASSIGNMENT FOCUSES ON EXTRACTING DATA. IN THIS ASSIGNMENT GRAB AN INCIDENTS PDF FILE FORM THE NORMAN, OKLAHAMA POLICE DEPARTMENT'S WEBSITE AND THEN EXTRACT THE DATA FROM THIS PDF AND PRINT OUT THE DIFFERENT CATEGORIES OF THE INCIDENTS.
 
+__How to Install__
+1. Clone the repository: Clone or download this repository to your local machine.
+2. Install pipenv: If not already installed, use pip install pipenv to install pipenv.
+3. Set up the environment:
+    Navigate to the project directory.
+    Run pipenv install to create a virtual environment and install dependencies: argparse, sqlite3, requests, pypdf2, and ensure os module is available (comes with     Python).
 
-## Demo
+__Running the project__
+Runthe project using the following command:
+
+pipenv run python assignment0/main.py --incidents <URL>
+
+__Demo__
 
 
 https://github.com/vsudele15/cis6930sp24-assignment0/assets/145212301/79f7eaa7-50b3-49ac-8297-765e2e5dccc8
