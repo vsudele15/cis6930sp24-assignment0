@@ -12,7 +12,6 @@ __How to Install__
 
 __Running the project__
 Runthe project using the following command:
-
 pipenv run python assignment0/main.py --incidents <URL>
 
 __Demo__
