@@ -1,5 +1,12 @@
 Name: Vaidehi Sudele
 
+## Demo
+
+
+https://github.com/vsudele15/cis6930sp24-assignment0/assets/145212301/79f7eaa7-50b3-49ac-8297-765e2e5dccc8
+
+
+
 __FUNCTIONS__
 
 1. db_delete(): This function deletes the SQLite database file (normanpd.db) if it exists in the specified directory (resources/).
