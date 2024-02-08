@@ -208,12 +208,7 @@ def status(db):
         all_records = db_cursor.fetchall()
         blank = 0
         for rec in all_records:
-            if rec[0]:
-                print(f"{rec[0]}|{rec[1]}")
-            else:
-                blank += 1
-        if blank > 0:
-            print(f"|{blank}")
+            print(f"{rec[0]}|{rec[1]}")
 
     except Exception as err:
         print("Error: ", err)
