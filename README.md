@@ -35,9 +35,7 @@ It returns the separated components.
 
 5. adjust_incident_number(inc_num, middle): This function adjusts the incident number and middle components if the incident number is longer than 13 characters. It returns the adjusted incident number and middle components.
 
-6. is_location_component(component):
-
-This function checks if a component of an incident record is likely to be part of the location information.
+6. is_location_component(component): This function checks if a component of an incident record is likely to be part of the location information.
 It returns a boolean indicating whether the component is likely to be part of the location.
 
 7. create_db(): This function creates a SQLite database (normanpd.db) if it doesn't already exist. It returns a connection to the database.
