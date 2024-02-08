@@ -1,4 +1,25 @@
-Name: Vaidehi Sudele
+__Name: Vaidehi Sudele__
+
+ASSIGNMENT DESCRIPTION:
+THIS IS ASSIGNMENT 0 IN THE CIS6930 DATA ENGINEERING COURSE. THE ASSIGNMENT FOCUSES ON EXTRACTING DATA. IN THIS ASSIGNMENT GRAB AN INCIDENTS PDF FILE FORM THE NORMAN, OKLAHAMA POLICE DEPARTMENT'S WEBSITE AND THEN EXTRACT THE DATA FROM THIS PDF AND PRINT OUT THE DIFFERENT CATEGORIES OF THE INCIDENTS.
+
+__How to Install__
+1. Clone the repository: Clone or download this repository to your local machine.
+2. Install pipenv: If not already installed, use pip install pipenv to install pipenv.
+3. Set up the environment:
+    Navigate to the project directory.
+    Run pipenv install to create a virtual environment and install dependencies: argparse, sqlite3, requests, pypdf2, and ensure os module is available (comes with     Python).
+
+__Running the project__
+Runthe project using the following command:
+pipenv run python assignment0/main.py --incidents "https://www.normanok.gov/sites/default/files/documents/2024-01/2024-01-01_daily_incident_summary.pdf"
+
+__Demo__
+
+
+https://github.com/vsudele15/cis6930sp24-assignment0/assets/145212301/79f7eaa7-50b3-49ac-8297-765e2e5dccc8
+
+
 
 __FUNCTIONS__
 
@@ -14,9 +35,7 @@ It returns the separated components.
 
 5. adjust_incident_number(inc_num, middle): This function adjusts the incident number and middle components if the incident number is longer than 13 characters. It returns the adjusted incident number and middle components.
 
-6. is_location_component(component):
-
-This function checks if a component of an incident record is likely to be part of the location information.
+6. is_location_component(component): This function checks if a component of an incident record is likely to be part of the location information.
 It returns a boolean indicating whether the component is likely to be part of the location.
 
 7. create_db(): This function creates a SQLite database (normanpd.db) if it doesn't already exist. It returns a connection to the database.
